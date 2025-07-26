@@ -6,7 +6,6 @@ author_profile: true
 redirect_from: 
   - /honor/
   - /honor.html
-  - /
 lang: en
 ---
 # Honors and Awards
