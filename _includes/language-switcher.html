@@ -1,7 +1,16 @@
-<div class="language-switcher">
+<ul class="visible-links right-nav">
+  <li class="masthead__menu-item">
     {% if page.lang == 'zh' %}
-      <a href="/en{{ page.url | remove_first: '/zh'}}" class="en" target="_self">English/中文</a>
+    <a href="/assets/CV_Xie_Chen.pdf" target="_blank">下载简历</a>
     {% else %}
-      <a href="/zh{{ page.url | remove_first: '/en'  }}" class="zh" target="_self">English/中文</a>
+    <a href="/assets/CV_Xie_Chen.pdf" target="_blank">Download CV</a>
     {% endif %}
-  </div>
+  </li>
+  <li class="masthead__menu-item">
+    {% if page.lang == 'zh' %}
+    <a href="/en{{ page.url | remove_first: '/zh'}}" class="en" target="_self">English/中文</a>
+    {% else %}
+    <a href="/zh{{ page.url | remove_first: '/en'  }}" class="zh" target="_self">English/中文</a>
+    {% endif %}
+  </li>
+</ul>
