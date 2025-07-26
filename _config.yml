@@ -13,8 +13,8 @@ assets:
 # Site Settings
 title                    : "Xie Chen"
 description              :
-  en: "CS in Shanghai Jiao Tong University. "
-  zh: "上海交通大学计算机学院"
+  en: "CS in Shanghai Jiao Tong University <br> Shanghai Innovation Institute."
+  zh: "上海交通大学计算机学院 <br> 上海创智学院"
 repository               : "RayeRen/acad-homepage.github.io"
 google_scholar_stats_use_cdn : true
 
