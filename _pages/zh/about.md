@@ -68,9 +68,13 @@ lang: zh
 - 享受编程和独立思考带来的乐趣。
 - 对音频AI领域有足够的兴趣和热情。
 
-如果你对我的研究方向感兴趣，希望开展科研实习（可远程）和合作，欢迎通过邮件与我联系(chenxie95 at sjtu dot edu dot cn)。
+如果你对我的研究方向感兴趣，希望开展科研实习（可远程）和合作，欢迎通过邮件与我联系(chenxie95_at_sjtu_dot_edu_dot_cn)。
 
 硕士博士申请者请在邮件中进行标注并附上简历，如我仍有招生名额，我会尽快回复。   
 
 
+
+# 致谢
+
+本网页模版设计基于 [https://github.com/RayeRen/acad-homepage.github.io](https://github.com/RayeRen/acad-homepage.github.io), 特此致谢  
 

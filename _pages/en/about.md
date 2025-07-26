@@ -63,9 +63,13 @@ You are welcome if you:
 - Enjoy programming and independent thinking  
 - Are passionate about speech AI  
 
-If you are interested in my research and would like to pursue a research internship (remote is also possible) or collaboration, feel free to contact me via email.
+If you are interested in my research and would like to pursue a research internship (remote is also possible) or collaboration, feel free to contact me via email(chenxie95_at_sjtu_dot_edu_dot_cn).
 
 For master's or Ph.D. applicants, please indicate your interest in the email and attach your CV. I will get back to you as soon as possible if I still have openings.
 
+
+# Acknowledgement
+
+This website template is based on [https://github.com/RayeRen/acad-homepage.github.io](https://github.com/RayeRen/acad-homepage.github.io). Special thanks to the original author.
 
 
