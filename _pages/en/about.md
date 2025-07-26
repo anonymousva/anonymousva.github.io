@@ -11,8 +11,7 @@ lang: en
 ---
 <span class='anchor' id='about-me'></span>
 
-# Biography
-
+# Biography  
 I am currently a Tenure-Track Associate Professor at the School of Computer Science, Shanghai Jiao Tong University, China. My research focuses on deep learning for speech signal processing, including audio understanding, audio generation, and speech-to-speech dialogue models. 
 
 Over the past decade, I have been fortunate to live, study, and work in several wonderful cities — from Loudi@Hunan → Xiamen → Beijing → Cambridge → Seattle → Shanghai — and to meet many great mentors and collaborators along the way.
@@ -26,6 +25,8 @@ My current research interests include:
 - Speech recognition, synthesis, and translation  
 - Self-supervised learning for audio signal  
 - Audio-driven talking-face (Avatar)   
+
+
 
 # Education
 
@@ -50,6 +51,7 @@ I currently teach the following core courses:
 
 <!-- Note: Only completed industry projects are listed -->  
 
+
 # Openings
 
 We are committed to building an open, relaxed, and collaborative research environment, where every student can grow and find a path that suits them.
@@ -67,6 +69,9 @@ If you are interested in my research and would like to pursue a research interns
 
 For master's or Ph.D. applicants, please indicate your interest in the email and attach your CV. I will get back to you as soon as possible if I still have openings.
 
+# CV
+
+[📄 Download My CV (PDF)](/assets/CV_Xie_Chen.pdf)
 
 # Acknowledgement
 

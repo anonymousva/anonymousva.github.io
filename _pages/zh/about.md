@@ -49,7 +49,7 @@ lang: zh
 
 - 深度学习实践 (Practice on Deep Learning)
 - 程序设计思想 (C++)
-- 相关的课程资料和代码可以在我的个人GitHub上找到 。   
+- 相关的课程资料和代码可以在我的个人[GitHub](https://github.com/)上找到。   
 
 <!--
 # 科研项目
