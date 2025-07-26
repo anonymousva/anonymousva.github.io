@@ -69,9 +69,11 @@ If you are interested in my research and would like to pursue a research interns
 
 For master's or Ph.D. applicants, please indicate your interest in the email and attach your CV. I will get back to you as soon as possible if I still have openings.
 
+<!--
 # CV
 
 [📄 Download My CV (PDF)](/assets/CV_Xie_Chen.pdf)
+-->
 
 # Acknowledgement
 
