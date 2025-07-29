@@ -17,8 +17,5 @@ lang: en
 
 # Academic Servcies
 
-- LAC – Technical Program Chairs, ICASSP 2025 Satellite Event Suzhou, China
-- Invited Speaker Chairs, SLT 2024
-- "[Speech Processing in LLM Era](http://www.iscslp2024.com/LLM)", Special Session, ISCSLP 2024
-- Technique Program Chair, NCMMSC 2023, 2024
+{% include shared_files/academic_services.md %}
 
