@@ -31,6 +31,8 @@ en:
     StoryTTS: "Highly expressive text-to-speech dataset from Mandarin storytelling show"
     YuE: "Open-source foundation models for music generation"
     FISHER: "A Foundation Model for Industrial Signal Comprehensive Representation"
+    a-dma: "Efficient F5-TTS model"
+    meanaudio: "Audio generation with Mean Flow"
 
 
 zh:
@@ -66,3 +68,5 @@ zh:
     StoryTTS: "基于评书的中文高表现力语音合成数据集"
     YuE: "开源音乐合成模型"
     FISHER: "工业声学信号基础模型"
+    a-dma: "高效语音合成模型"
+    meanaudio: "高质量音频生成模型"

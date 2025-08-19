@@ -2,6 +2,14 @@
 
 # 2025
 
+> MeanAudio: {{ t["project"]["meanaudio"] }}   
+> {{ t["project"]["code"] }}: [https://github.com/xiquan-li/MeanAudio ![MeanAudio](https://img.shields.io/github/stars/xiquan-li/MeanAudio)](https://github.com/xiquan-li/MeanAudio)  
+> {{ t["project"]["model"] }}: [https://huggingface.co/AndreasXi/MeanAudio](https://huggingface.co/AndreasXi/MeanAudio)  
+> {{ t["project"]["demo"] }}: [https://huggingface.co/spaces/chenxie95/MeanAudio](https://huggingface.co/spaces/chenxie95/MeanAudio)  
+
+> A-DMA: {{ t["project"]["a-dma"] }}   
+> {{ t["project"]["code"] }}：[https://github.com/ZhikangNiu/A-DMA ![A-DMA](https://img.shields.io/github/stars/ZhikangNiu/A-DMA)](https://github.com/ZhikangNiu/A-DMA)  
+
 > MMAR: {{ t["project"]["mmar"] }}   
 > {{ t["project"]["code"] }}：[https://github.com/ddlBoJack/MMAR ![MMAR](https://img.shields.io/github/stars/ddlBoJack/MMAR)](https://github.com/ddlBoJack/MMAR)  
 > {{ t["project"]["dataset"] }}: [HuggingFace](https://huggingface.co/datasets/BoJack/MMAR)  
@@ -23,8 +31,8 @@
 > {{ t["project"]["dataset"] }}: [HuggingFace](https://huggingface.co/datasets/Honggao/URO-Bench)  
 
 > muQ: {{ t["project"]["muQ"] }}  
-> {{ t["project"]["code"] }}：[https://github.com/tencent-ailab/MuQ ![MuQ](https://img.shields.io/github/stars/tencent-ailab/MuQ)](https://github.com/tencent-ailab/MuQ)   
-> 模型：[MuQ-large](https://huggingface.co/OpenMuQ/MuQ-large-msd-iter), [MuQ-MuLan-large](https://huggingface.co/OpenMuQ/MuQ-MuLan-large)  
+> {{ t["project"]["code"] }}: [https://github.com/tencent-ailab/MuQ ![MuQ](https://img.shields.io/github/stars/tencent-ailab/MuQ)](https://github.com/tencent-ailab/MuQ)   
+> {{ t["project"]["model"] }}: [MuQ-large](https://huggingface.co/OpenMuQ/MuQ-large-msd-iter), [MuQ-MuLan-large](https://huggingface.co/OpenMuQ/MuQ-MuLan-large)  
 > <span style="color:red"> {{ t["project"]["muQ-note"] }}</span>
 
 
