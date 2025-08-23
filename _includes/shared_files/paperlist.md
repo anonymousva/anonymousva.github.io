@@ -1,7 +1,13 @@
 
 
 # 2025
-
+- Yuezhang PENG, Yuxin Liu, Fei Wen, **Xie Chen**,  *"MUZO: Leveraging Multiple Queries and Momentum for Zeroth-Order Fine-Tuning of Large Language Models"*. In Proc. EMNLP, 2025. 
+- Pengchao Feng, Ziyang Ma, Wenxi Chen, Yao Li, SHENG WANG, Kai Yu, **Xie Chen**. *"Enhancing Speech-to-Speech Dialogue Modeling with End-to-End Retrieval-Augmented Generation"*. In Proc. EMNLP-Findings, 2025. 
+- Ruiqi Yan, Xiquan Li, Wenxi Chen, Zhikang Niu, Chen Yang, Ziyang Ma, Kai Yu, **Xie Chen**. *"URO-Bench: Towards Comprehensive Evaluation for End-to-End Spoken Dialogue Models"*. In Proc. EMNLP-Findings, 2025.
+- Ziyang Ma, Zhuo Chen, Yuping Wang, Eng Siong Chng, **Xie Chen**, *"Audio-cot: Exploring chain-of-thought reasoning in large audio language model"*, In Proc. ASRU, 2025.
+- Yuezhang PENG, Yuxin Liu, Yao Li, Sheng Wang, Fei Wen, **Xie Chen**, *"ZO-ASR: Zeroth-Order Fine-Tuning of Speech Foundation Models without Back-Propagation"*, In Proc. ASRU, 2025.
+- Haoran Wang, Guanyu Chen, Bohan Li, Hankun Wang, Yiwei Guo, Zhihan Li, **Xie Chen**, Kai Yu. *"Towards General Discrete Speech Codec for Complex Acoustic Environments: A Study of Reconstruction and Downstream Task Consistency"*. In Proc. ASRU, 2025.
+- Xiao Li, Qi Chen, Xiulian Peng, Kai Yu, **Xie Chen**, Yan Lu. *"Bitrate-Controlled Diffusion for Disentangling Motion and Content in Video"*. In Proc. ICCV, 2025.
 - Yifan Yang, Shujie Liu, Jinyu Li, Yuxuan Hu, Haibin Wu, Hui Wang, Jianwei Yu, Lingwei Meng, Haiyang Sun, Yanqing Liu, Yan Lu, Kai Yu, **Xie Chen**. *"Pseudo-Autoregressive Neural Codec Language Models for Efficient Zero-Shot Text-to-Speech Synthesis"*. In Proc. ACM MM, 2025.
 - Guanrou Yang, Chen Yang, Qian Chen, Ziyang Ma, Wenxi Chen, Wen Wang, Tianrui Wang, Yifan Yang, Zhikang Niu, Wenrui Liu, Fan Yu, Zhihao Du, Zhifu Gao, ShiLiang Zhang, **Xie Chen**. *"Emovoice: Llm-based emotional text-to-speech model with freestyle text prompting"*. In Proc. ACM MM, 2025.
 - Hanglei Zhang, Yiwei Guo, Zhihan Li, Xiang Hao, **Xie Chen**, Kai Yu. *"Unlocking Temporal Flexibility: Neural Speech Codec with Variable Frame Rate"*. In Proc. INTERSPEECH, 2025.
@@ -10,6 +16,7 @@
 - Mingyu Cui, Yifan Yang, Jiajun Deng, Jiawen Kang, Shujie Hu, Tianzi Wang, Zhaoqing Li, Shiliang Zhang, **Xie Chen**, Xunying Liu. *"Exploring SSL Discrete Speech Features for Zipformer-based Contextual ASR"*. In Proc. INTERSPEECH, 2025.
 - Jeongsoo Choi, Zhikang Niu, Ji-Hoon Kim, Chunhui Wang, Joon Son Chung, **Xie Chen**. *"Accelerating Diffusion-based Text-to-Speech Model Training with Dual Modality Alignment"*. In Proc. INTERSPEECH, 2025.
 - Jianheng Zhuo, Yifan Yang, Yiwen Shao, Yong Xu, Dong Yu, Kai Yu, **Xie Chen**. *"VietASR: Achieving Industry-level Vietnamese ASR with 50-hour labeled data and Large-Scale Speech Pretraining"*. In Proc. INTERSPEECH, 2025.
+- Yu Pu, Xiaoqian Liu, Guangyu Zhang, Zheng Yan, Wei-Qiang Zhang, **Xie Chen**. *"Empowering Large Language Models for End-to-End Speech Translation Leveraging Synthetic Data"*. In Proc. INTERSPEECH, 2025.
 - Yushen CHEN, Zhikang Niu, Ziyang Ma, Keqi Deng, Chunhui Wang, JianZhao, Kai Yu, **Xie Chen**. *"F5-TTS: A Fairytaler that Fakes Fluent and Faithful Speech with Flow Matching"*. In Proc. ACL, 2025.
 - Yifan Yang, Zheshu Song, Jianheng Zhuo, Mingyu Cui, Jinpeng Li, Bo Yang, Yexing Du, Ziyang Ma, Xunying Liu, Ziyuan Wang, Ke Li, Shuai Fan, Kai Yu, Wei-Qiang Zhang, Guoguo Chen, **Xie Chen**. *"GigaSpeech 2: An Evolving, Large-Scale and Multi-domain ASR Corpus for Low-Resource Languages with Automated Crawling, Transcription and Refinement"*. In Proc. ACL, 2025.
 - Yexing Du, Youcheng Pan, Ziyang Ma, Bo Yang, Yifan Yang, Keqi Deng, **Xie Chen**, Yang Xiang, Ming Liu, Bing Qin. *"Making LLMs Better Many-to-Many Speech-to-Text Translators with Curriculum Learning"*. In Proc. ACL, 2025.
