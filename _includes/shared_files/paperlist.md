@@ -23,6 +23,7 @@
 - Keqi Deng, Wenxi Chen, **Xie Chen**, Phil Woodland. *"SimulS2S-LLM: Unlocking Simultaneous Inference of Speech LLMs for Speech-to-Speech Translation"*. In Proc. ACL, 2025.
 - Ziyang Ma, Xiquan Li, Yakun Song, Wenxi Chen, Chenpeng Du, Jian Wu, Yuanzhe Chen, Zhuo Chen, Yuping Wang, Yuxuan Wang, **Xie Chen**. *"Towards Reliable Large Audio Language Model"*. In Findings of ACL, 2025.
 - Wenxi Chen, Ziyang Ma, Ruiqi Yan, Yuzhe Liang, Xiquan Li, Ruiyang Xu, Zhikang Niu, Yanqiao Zhu, Yifan Yang, Zhanxun Liu, Kai Yu, Yuxuan Hu, Jinyu Li, Yan Lu, Shujie LIU, **Xie Chen**. *"SLAM-Omni: Timbre-Controllable Voice Interaction System with Single-Stage Training"*. In Findings of ACL, 2025.
+- Tianrui Wang, Jin Li, Ziyang Ma, Rui Cao, **Xie Chen**, Longbiao Wang, Meng Ge, Xiaobao Wang, Yuguang Wang, Jianwu Dang, Nyima Tashi. *"Progressive residual extraction based pre-training for speech representation learning"*, In IEEE/ACM TASLP, 2025.
 - Tianrui Wang, Meng Ge, Zhikang Niu, Cheng Gong, Chunyu Qiang, Haoyu Wang, Zikang Huang, Ziyang Ma, Xiaobao Wang, **Xie Chen**, Longbiao Wang, Jianwu Dang. *"A Progressive Generation Framework with Speech Pre-trained Model for Expressive Voice Conversion"*. In Proc. ICME, 2025.
 - Yifan Yang, Jianheng Zhuo, Zengrui Jin, Ziyang Ma, Xiaoyu Yang, Zengwei Yao, Liyong Guo, Wei Kang, Fangjun Kuang, Long Lin, Daniel Povey, **Xie Chen**. *"k2SSL: A Faster and Better Framework for Self-Supervised Speech Representation Learning"*. In Proc. ICME, 2025.
 - Guanrou Yang, Fan Yu, Ziyang Ma, Zhihao Du, Zhifu Gao, Shiliang Zhang, **Xie Chen**. *"Enhancing Low-Resource ASR through Versatile TTS: Bridging the Data Gap"*. In Proc. ICASSP, 2025.
@@ -96,40 +97,40 @@
 
 - D Narayanan, A Phanishayee, K Shi, **X Chen**, M Zaharia. *"Memory-efficient pipeline-parallel DNN training"*. In Proc. ICML, 2021
 - Y Deng, R Zhao, Z Meng, **X Chen**, B Liu, J Li, Y Gong, L He. *"Improving RNN-T for Domain Scaling Using Semi-Supervised Training with Neural TTS"*. In Proc. INTERSPEECH, 2021
-- **X. Chen**, Y. Wu, Z. Wang, S. Liu, J. Li. *"Developing Real-time Streaming Transformer Transducer for Speech Recognition on Large-scale Dataset"*. In Proc. ICASSP, 2021
-- Z. Meng, N. Kanda, Y. Gaur, S. Parthasarathy, E. Sun, L. Lu, **X. Chen**, J. Li, Y. Gong. *"Internal Language Model Training for Domain-Adaptive End-to-End Speech Recognition"*. In Proc. IEEE ICASSP, 2021
-- Z. Meng, S. Parthasarathy, E. Sun, Y. Gaur, N. Kanda, L. Lu, **X. Chen**, R. Zhao, J. Li, Y. Gong. *"Internal Language Model Estimation for Domain-Adaptive End-to-End Speech Recognition"*. In Proc. IEEE SLT, 2020
-- **X. Chen**, S. Parthasarathy, W. Gale, S. Chang, M. Zeng. *"LSTM-LM with Long-Term History for First-Pass Decoding in Conversational Speech Recognition"*. arXiv preprint arXiv:2010.11349, 2020
-- J. Xu, **X. Chen**, S. Hu, J. Yu, X. Liu, H. Meng. *"Low-bit Quantization of Recurrent Neural Network Language Models Using Alternating Direction Methods of Multipliers"*. In Proc. ICASSP, 2020
-- **X. Chen**, X. Liu, Y. Wang, A. Ragni, M. Gales. *"Exploiting Future Word Contexts in Neural Network Language Model"*. IEEE/ACM TASLP, 2019
-- S. Parthasarathy, W. Gale, **X. Chen**, G. Polovets, S. Chang. *"Long-span language modeling for speech recognition"*. arXiv preprint arXiv:1911.04571, 2019
-- **X. Chen**, J. Zhang, T. Anastasakos, F. Alleva. *"Investigation of Sampling Techniques for Maximum Entropy Language Modeling Training"*. In Proc. ICASSP, 2019
-- M. Lam, **X. Chen**, S. Hu, J. Yu, X. Liu, H. Meng. *"Gaussian Process LSTM Recurrent Neural Network Language Models for Speech Recognition"*. In Proc. ICASSP, 2019
-- J. Yu, M. Lam, **X. Chen**, S. Hu, S. Liu, X. Wu, X. Liu, H. Meng. *"Recurrent Neural Network Language Models Training using Natural Gradient"*. In Proc. ICASSP, 2019
-- O. Chen, A. Ragni, M.J.F. Gales, **X. Chen**. *"Active Memory Networks for Language Modeling"*. In Proc. INTERSPEECH, 2018
-- M. Zhang, **X. Chen**, R. Cummins, Q. Andersen, T. Briscoe. *"The Effect of Adding Authorship Knowledge in Automated Text Scoring"*. In Workshop of BEA, NAACL, 2018
-- X. Liu, S. Liu, J. Sha, J. Yu, Z Xu, **X. Chen**, H. Meng. *"Limited-memory BFGS Optimization of Recurrent Neural Network Language Models For Speech Recognition"*. In Proc. ICASSP, 2018
-- Y. Wang, **X. Chen**, M.J.F. Gales, A. Ragni, J. Wong. *"Phonetic and Graphemic Systems for Multi-Genre Broadcast Transcription"*. In Proc. ICASSP, 2018
-- H. Xu, K. Li, Y. Wang, J. Wang, S. Kang, **X. Chen**, D. Povey, S. Khudanpur. *"Neural Network Language Modeling with Letter-based Features and Importance Sampling"*. In Proc. ICASSP, 2018
-- **X. Chen**, X. Liu, A. Ragni, Y. Wang, M.J.F. Gales. *"Future Word Context in Neural Network Language Model"*. In Proc. ASRU, 2017
-- **X. Chen**, A. Ragni, X. Liu, M.J.F. Gales. *"Investigating Bidirectional Recurrent Neural Network Language Models for Speech Recognition"*. In Proc. INTERSPEECH, 2017
-- **X. Chen**, A. Ragni, J. Vasilakes, X. Liu, K. Knill, M.J.F. Gales. *"Recurrent Neural Network Language Models for Keyword Search"*. In Proc. ICASSP, 2017
-- **X. Chen**, X. Liu, Y. Wang, M.J.F. Gales, P.C. Woodland. *"Efficient Training and Evaluation of Recurrent Neural Network Language Models for Speech Recognition"*. IEEE/ACM TASLP, 2016
-- X. Liu, **X. Chen**, Y. Wang, M.J.F. Gales, P.C. Woodland. *"Two Efficient Lattice Rescoring Methods Using Recurrent Neural Network Language Models"*. IEEE/ACM TASLP, 2016
-- A. Ragni, E. Dakin, **X. Chen**, M.J.F. Gales, K.M. Knill. *"Multi-Language Neural Network Language Models"*. In Proc. INTERSPEECH, 2016
-- **X. Chen**, X. Liu, Y. Qian, M.J.F. Gales, P.C. Woodland. *"CUED-RNNLM: An Open-Source Toolkit for Efficient Training and Evaluation of Recurrent Neural Network Language Models"*. In Proc. ICASSP, 2016
-- **X. Chen**, X. Liu, M.J.F. Gales, P.C. Woodland. *"Investigation of back-off based interpolation between Recurrent Neural Network and N-Gram Language Models"*. In Proc. ASRU, 2015
-- **X. Chen**, T. Tan, X. Liu, P. Lancheantin, M. Wan, M.J.F. Gales, P.C. Woodland. *"Recurrent Neural Network Language Model Adaptation for Multi-Genre Broadcast Speech Recognition"*. In Proc. INTERSPEECH, 2015
-- **X. Chen**, X. Liu, M.J.F. Gales, P.C. Woodland. “Improving the Training and Evaluation Efficiency of Recurrent Neural Network Language Models”. *In Proc. ICASSP*, 2015.
-- **X. Chen**, X. Liu, M.J.F. Gales, P.C. Woodland. “Recurrent Neural Network Language Model Training with Noise Contrastive Estimation for Speech Recognition”. *In Proc. ICASSP*, 2015.
-- X. Liu, **X. Chen**, M.J.F. Gales, P.C. Woodland. “Paraphrastic Recurrent Neural Network Language Models”. *In Proc. ICASSP*, 2015.
-- T. Drugman, Y. Stylianou, L. Chen, **X. Chen**, M.J.F. Gales. “Robust Excitation-based Feature for Automatic Speech Recognition”. *In Proc. ICASSP*, 2015.
-- **X. Chen**, M.J.F. Gales, K. Knill et al. “An Initial Investigation of Long-Term Adaptation for Meeting Transcription”. *In Proc. INTERSPEECH*, 2014.
-- **X. Chen**, Y. Wang, X. Liu, M.J.F. Gales, P.C. Woodland. “Efficient GPU-based Training of Recurrent Neural Network Language Models Using Spliced Sentence Bunch”. *In Proc. INTERSPEECH*, 2014.
-- X. Liu, Y. Wang, **X. Chen**, M.J.F. Gales, P.C. Woodland. “Efficient Lattice Rescoring Using Recurrent Neural Network Language Models”. *In Proc. ICASSP*, 2014.
-- T. Yoshioka, **X. Chen**, M.J.F. Gales. “Impact of Single-Microphone Dereverberation on DNN-based Meeting Transcription Systems”. *In Proc. ICASSP*, 2014.
-- J. Liu, **X. Chen**, Y. Shan, Y. Shi. “Construction of a Compact Dynamic Decoder Network for Large Vocabulary Continuous Speech Recognition”. *Tsinghua Journal of Chinese Studies*, 2012.
-- Y. Shan, **X. Chen**, Y. Shi, J. Liu. “Fast Language Model Look-ahead Algorithm Using Extended N-gram Model”. *ACTA AUTOMATICA SINICA*, 2012.
-- **X. Chen**, A. Eversol, D. Yu, F. Seide. “Pipelined Back-Propagation for Context-Dependent Deep Neural Networks”. *In Proc. INTERSPEECH*, 2012.
-- **X. Chen**, Y. Shan, X. Zhang, J. Liu. “An Efficient Layer-wised Beam Pruning Algorithm for Large Vocabulary Continuous Speech Recognition System”. *In Proc. ICALIP*, 2012.
-- F. Seide, G. Li, **X. Chen**, D. Yu. “Feature Engineering in Context-Dependent Deep Neural Networks for Conversational Speech Transcription”. *In Proc. ASRU*, 2011.
+- **Xie Chen**, Y. Wu, Z. Wang, S. Liu, J. Li. *"Developing Real-time Streaming Transformer Transducer for Speech Recognition on Large-scale Dataset"*. In Proc. ICASSP, 2021
+- Z. Meng, N. Kanda, Y. Gaur, S. Parthasarathy, E. Sun, L. Lu, **Xie Chen**, J. Li, Y. Gong. *"Internal Language Model Training for Domain-Adaptive End-to-End Speech Recognition"*. In Proc. IEEE ICASSP, 2021
+- Z. Meng, S. Parthasarathy, E. Sun, Y. Gaur, N. Kanda, L. Lu, **Xie Chen**, R. Zhao, J. Li, Y. Gong. *"Internal Language Model Estimation for Domain-Adaptive End-to-End Speech Recognition"*. In Proc. IEEE SLT, 2020
+- **Xie Chen**, S. Parthasarathy, W. Gale, S. Chang, M. Zeng. *"LSTM-LM with Long-Term History for First-Pass Decoding in Conversational Speech Recognition"*. arXiv preprint arXiv:2010.11349, 2020
+- J. Xu, **Xie Chen**, S. Hu, J. Yu, X. Liu, H. Meng. *"Low-bit Quantization of Recurrent Neural Network Language Models Using Alternating Direction Methods of Multipliers"*. In Proc. ICASSP, 2020
+- **Xie Chen**, X. Liu, Y. Wang, A. Ragni, M. Gales. *"Exploiting Future Word Contexts in Neural Network Language Model"*. IEEE/ACM TASLP, 2019
+- S. Parthasarathy, W. Gale, **Xie Chen**, G. Polovets, S. Chang. *"Long-span language modeling for speech recognition"*. arXiv preprint arXiv:1911.04571, 2019
+- **Xie Chen**, J. Zhang, T. Anastasakos, F. Alleva. *"Investigation of Sampling Techniques for Maximum Entropy Language Modeling Training"*. In Proc. ICASSP, 2019
+- M. Lam, **Xie Chen**, S. Hu, J. Yu, X. Liu, H. Meng. *"Gaussian Process LSTM Recurrent Neural Network Language Models for Speech Recognition"*. In Proc. ICASSP, 2019
+- J. Yu, M. Lam, **Xie Chen**, S. Hu, S. Liu, X. Wu, X. Liu, H. Meng. *"Recurrent Neural Network Language Models Training using Natural Gradient"*. In Proc. ICASSP, 2019
+- O. Chen, A. Ragni, M.J.F. Gales, **Xie Chen**. *"Active Memory Networks for Language Modeling"*. In Proc. INTERSPEECH, 2018
+- M. Zhang, **Xie Chen**, R. Cummins, Q. Andersen, T. Briscoe. *"The Effect of Adding Authorship Knowledge in Automated Text Scoring"*. In Workshop of BEA, NAACL, 2018
+- X. Liu, S. Liu, J. Sha, J. Yu, Z Xu, **Xie Chen**, H. Meng. *"Limited-memory BFGS Optimization of Recurrent Neural Network Language Models For Speech Recognition"*. In Proc. ICASSP, 2018
+- Y. Wang, **Xie Chen**, M.J.F. Gales, A. Ragni, J. Wong. *"Phonetic and Graphemic Systems for Multi-Genre Broadcast Transcription"*. In Proc. ICASSP, 2018
+- H. Xu, K. Li, Y. Wang, J. Wang, S. Kang, **Xie Chen**, D. Povey, S. Khudanpur. *"Neural Network Language Modeling with Letter-based Features and Importance Sampling"*. In Proc. ICASSP, 2018
+- **Xie Chen**, X. Liu, A. Ragni, Y. Wang, M.J.F. Gales. *"Future Word Context in Neural Network Language Model"*. In Proc. ASRU, 2017
+- **Xie Chen**, A. Ragni, X. Liu, M.J.F. Gales. *"Investigating Bidirectional Recurrent Neural Network Language Models for Speech Recognition"*. In Proc. INTERSPEECH, 2017
+- **Xie Chen**, A. Ragni, J. Vasilakes, X. Liu, K. Knill, M.J.F. Gales. *"Recurrent Neural Network Language Models for Keyword Search"*. In Proc. ICASSP, 2017
+- **Xie Chen**, X. Liu, Y. Wang, M.J.F. Gales, P.C. Woodland. *"Efficient Training and Evaluation of Recurrent Neural Network Language Models for Speech Recognition"*. IEEE/ACM TASLP, 2016
+- X. Liu, **Xie Chen**, Y. Wang, M.J.F. Gales, P.C. Woodland. *"Two Efficient Lattice Rescoring Methods Using Recurrent Neural Network Language Models"*. IEEE/ACM TASLP, 2016
+- A. Ragni, E. Dakin, **Xie Chen**, M.J.F. Gales, K.M. Knill. *"Multi-Language Neural Network Language Models"*. In Proc. INTERSPEECH, 2016
+- **Xie Chen**, X. Liu, Y. Qian, M.J.F. Gales, P.C. Woodland. *"CUED-RNNLM: An Open-Source Toolkit for Efficient Training and Evaluation of Recurrent Neural Network Language Models"*. In Proc. ICASSP, 2016
+- **Xie Chen**, X. Liu, M.J.F. Gales, P.C. Woodland. *"Investigation of back-off based interpolation between Recurrent Neural Network and N-Gram Language Models"*. In Proc. ASRU, 2015
+- **Xie Chen**, T. Tan, X. Liu, P. Lancheantin, M. Wan, M.J.F. Gales, P.C. Woodland. *"Recurrent Neural Network Language Model Adaptation for Multi-Genre Broadcast Speech Recognition"*. In Proc. INTERSPEECH, 2015
+- **Xie Chen**, X. Liu, M.J.F. Gales, P.C. Woodland. “Improving the Training and Evaluation Efficiency of Recurrent Neural Network Language Models”. *In Proc. ICASSP*, 2015.
+- **Xie Chen**, X. Liu, M.J.F. Gales, P.C. Woodland. “Recurrent Neural Network Language Model Training with Noise Contrastive Estimation for Speech Recognition”. *In Proc. ICASSP*, 2015.
+- X. Liu, **Xie Chen**, M.J.F. Gales, P.C. Woodland. “Paraphrastic Recurrent Neural Network Language Models”. *In Proc. ICASSP*, 2015.
+- T. Drugman, Y. Stylianou, L. Chen, **Xie Chen**, M.J.F. Gales. “Robust Excitation-based Feature for Automatic Speech Recognition”. *In Proc. ICASSP*, 2015.
+- **Xie Chen**, M.J.F. Gales, K. Knill et al. “An Initial Investigation of Long-Term Adaptation for Meeting Transcription”. *In Proc. INTERSPEECH*, 2014.
+- **Xie Chen**, Y. Wang, X. Liu, M.J.F. Gales, P.C. Woodland. “Efficient GPU-based Training of Recurrent Neural Network Language Models Using Spliced Sentence Bunch”. *In Proc. INTERSPEECH*, 2014.
+- X. Liu, Y. Wang, **Xie Chen**, M.J.F. Gales, P.C. Woodland. “Efficient Lattice Rescoring Using Recurrent Neural Network Language Models”. *In Proc. ICASSP*, 2014.
+- T. Yoshioka, **Xie Chen**, M.J.F. Gales. “Impact of Single-Microphone Dereverberation on DNN-based Meeting Transcription Systems”. *In Proc. ICASSP*, 2014.
+- J. Liu, **Xie Chen**, Y. Shan, Y. Shi. “Construction of a Compact Dynamic Decoder Network for Large Vocabulary Continuous Speech Recognition”. *Tsinghua Journal of Chinese Studies*, 2012.
+- Y. Shan, **Xie Chen**, Y. Shi, J. Liu. “Fast Language Model Look-ahead Algorithm Using Extended N-gram Model”. *ACTA AUTOMATICA SINICA*, 2012.
+- **Xie Chen**, A. Eversol, D. Yu, F. Seide. “Pipelined Back-Propagation for Context-Dependent Deep Neural Networks”. *In Proc. INTERSPEECH*, 2012.
+- **Xie Chen**, Y. Shan, X. Zhang, J. Liu. “An Efficient Layer-wised Beam Pruning Algorithm for Large Vocabulary Continuous Speech Recognition System”. *In Proc. ICALIP*, 2012.
+- F. Seide, G. Li, **Xie Chen**, D. Yu. “Feature Engineering in Context-Dependent Deep Neural Networks for Conversational Speech Transcription”. *In Proc. ASRU*, 2011.
