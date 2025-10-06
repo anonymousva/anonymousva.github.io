@@ -1,6 +1,7 @@
 
-
 # 2025
+- Tianrui Wang, Haoyu Wang, Meng Ge, Cheng Gong, Chunyu Qiang, Ziyang Ma, Zikang Huang, Guanrou Yang, Xiaobao Wang, Eng Siong Chng, **Xie Chen**, Longbiao Wang, Jianwu Dang. *"Word-Level Emotional Expression Control in Zero-Shot Text-to-Speech Synthesis"*. In Proc. NeurIPS, 2025.
+- Ziyang Ma, Yinghao Ma, Yanqiao Zhu, Chen Yang, Yi-Wen Chao, Ruiyang Xu, Wenxi Chen, Yuanzhe Chen, Zhuo Chen, Jian Cong, Kai Li, Keliang Li, Siyou Li, Xinfeng Li, Xiquan Li, Zheng Lian, Yuzhe Liang, Minghao Liu, Zhikang Niu, Tianrui Wang, Yuping Wang, Yuxuan Wang, Yihao Wu, Guanrou Yang, Jianwei Yu, Ruibin Yuan, Zhisheng Zheng, Ziya Zhou, Haina Zhu, Wei Xue, Emmanouil Benetos, Kai Yu, Eng-Siong Chng, **Xie Chen**. *"MMAR: A Challenging Benchmark for Deep Reasoning in Speech, Audio, Music, and Their Mix"*. In Proc. NeurIPS, 2025. 
 - Yuezhang PENG, Yuxin Liu, Fei Wen, **Xie Chen**,  *"MUZO: Leveraging Multiple Queries and Momentum for Zeroth-Order Fine-Tuning of Large Language Models"*. In Proc. EMNLP, 2025. 
 - Pengchao Feng, Ziyang Ma, Wenxi Chen, Yao Li, SHENG WANG, Kai Yu, **Xie Chen**. *"Enhancing Speech-to-Speech Dialogue Modeling with End-to-End Retrieval-Augmented Generation"*. In Proc. EMNLP-Findings, 2025. 
 - Ruiqi Yan, Xiquan Li, Wenxi Chen, Zhikang Niu, Chen Yang, Ziyang Ma, Kai Yu, **Xie Chen**. *"URO-Bench: Towards Comprehensive Evaluation for End-to-End Spoken Dialogue Models"*. In Proc. EMNLP-Findings, 2025.
