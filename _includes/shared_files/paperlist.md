@@ -1,5 +1,6 @@
 
 # 2025
+- Haina Zhu, Yizhi Zhou, Hangting Chen, Jianwei Yu, Ziyang Ma, Rongzhi Gu, Yi Luo, Wei Tan, **Xie Chen**. *"MuQ: Self-Supervised Music Representation Learning with Mel Residual Vector Quantization"*. In IEEE/ACM TASLP, 2025.
 - Tianrui Wang, Haoyu Wang, Meng Ge, Cheng Gong, Chunyu Qiang, Ziyang Ma, Zikang Huang, Guanrou Yang, Xiaobao Wang, Eng Siong Chng, **Xie Chen**, Longbiao Wang, Jianwu Dang. *"Word-Level Emotional Expression Control in Zero-Shot Text-to-Speech Synthesis"*. In Proc. NeurIPS, 2025.
 - Ziyang Ma, Yinghao Ma, Yanqiao Zhu, Chen Yang, Yi-Wen Chao, Ruiyang Xu, Wenxi Chen, Yuanzhe Chen, Zhuo Chen, Jian Cong, Kai Li, Keliang Li, Siyou Li, Xinfeng Li, Xiquan Li, Zheng Lian, Yuzhe Liang, Minghao Liu, Zhikang Niu, Tianrui Wang, Yuping Wang, Yuxuan Wang, Yihao Wu, Guanrou Yang, Jianwei Yu, Ruibin Yuan, Zhisheng Zheng, Ziya Zhou, Haina Zhu, Wei Xue, Emmanouil Benetos, Kai Yu, Eng-Siong Chng, **Xie Chen**. *"MMAR: A Challenging Benchmark for Deep Reasoning in Speech, Audio, Music, and Their Mix"*. In Proc. NeurIPS, 2025. 
 - Yuezhang PENG, Yuxin Liu, Fei Wen, **Xie Chen**,  *"MUZO: Leveraging Multiple Queries and Momentum for Zeroth-Order Fine-Tuning of Large Language Models"*. In Proc. EMNLP, 2025. 
