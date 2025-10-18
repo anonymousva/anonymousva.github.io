@@ -33,6 +33,8 @@ en:
     FISHER: "A Foundation Model for Industrial Signal Comprehensive Representation"
     a-dma: "Efficient F5-TTS model"
     meanaudio: "Audio generation with Mean Flow"
+    semanticvae: "Semantic-alignment latent representation for better speech synthesis"
+    omnicaptioner: "Multi-agent based detail audio caption"
 
 
 zh:
@@ -70,3 +72,5 @@ zh:
     FISHER: "工业声学信号基础模型"
     a-dma: "高效语音合成模型"
     meanaudio: "高质量音频生成模型"
+    semanticvae: "融合语义信息引导信息的高质量语音编解码模型"
+    omnicaptioner: "基于multi-agent的音频精细化描述和理解"

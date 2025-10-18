@@ -1,6 +1,14 @@
 
 
 # 2025
+> Omni-Captioner: {{ t["project"]["omnicaptioner"] }}   
+> {{ t["project"]["code"] }}: [https://github.com/ddlBoJack/Omni-Captioner ![OmniCaptioner](https://img.shields.io/github/stars/ddlBoJack/Omni-Captioner)](https://github.com/ddlBoJack/Omni-Captioner)  
+> {{ t["project"]["model"] }}: [https://huggingface.co/ddlBoJack/Omni-Captioner](https://huggingface.co/ddlBoJack/Omni-Captioner)  
+> {{ t["project"]["demo"] }}: [https://huggingface.co/spaces/Qwen/Qwen3-Omni-Captioner-Demo](https://huggingface.co/spaces/Qwen/Qwen3-Omni-Captioner-Demo)  
+
+> Semantic-VAE: {{ t["project"]["semanticvae"] }}   
+> {{ t["project"]["code"] }}: [https://github.com/ZhikangNiu/Semantic-VAE ![SemanticVAE](https://img.shields.io/github/stars/ZhikangNiu/Semantic-VAE)](https://github.com/ZhikangNiu/Semantic-VAE)  
+> {{ t["project"]["model"] }}: [https://huggingface.co/zkniu/Semantic-VAE](https://huggingface.co/zkniu/Semantic-VAE)  
 
 > MeanAudio: {{ t["project"]["meanaudio"] }}   
 > {{ t["project"]["code"] }}: [https://github.com/xiquan-li/MeanAudio ![MeanAudio](https://img.shields.io/github/stars/xiquan-li/MeanAudio)](https://github.com/xiquan-li/MeanAudio)  
