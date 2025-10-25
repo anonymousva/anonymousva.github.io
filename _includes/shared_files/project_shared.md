@@ -30,6 +30,10 @@
 > {{ t["project"]["code"] }}: [https://github.com/Ereboas/MagiCodec ![MagiCodec](https://img.shields.io/github/stars/Ereboas/MagiCodec)](https://github.com/Ereboas/MagiCodec)  
 > {{ t["project"]["model"] }}: [HuggingFace](https://huggingface.co/Ereboas/MagiCodec_16k_50hz)  
 
+> E2E RAG for SLM: {{ t["project"]["E2ERAG"] }}   
+> {{ t["project"]["code"] }}: [https://github.com/the-bird-F/GLM-Voice-RAG ![E2ERAG](https://img.shields.io/github/stars/the-bird-F/GLM-Voice-RAG)](https://github.com/the-bird-F/GLM-Voice-RAG)  
+> {{ t["project"]["dataset"] }}: [HuggingFace](https://huggingface.co/datasets/the-bird-F/HotpotQA_RGBzh_speech)  
+
 > VietASR: {{ t["project"]["VietASR"] }}   
 > {{ t["project"]["code"] }}: [https://github.com/zzasdf/VietASR ![VietASR](https://img.shields.io/github/stars/zzasdf/VietASR)](https://github.com/zzasdf/VietASR)   
 > {{ t["project"]["model"] }}: [HuggingFace](https://huggingface.co/zzasdf/icefall-asr-gigaspeech2-vi-zipformer)
