@@ -36,6 +36,8 @@ en:
     meanaudio: "Audio generation with Mean Flow"
     semanticvae: "Semantic-alignment latent representation for better speech synthesis"
     omnicaptioner: "Multi-agent based detail audio caption"
+    SAC: "Neural speech codec with semantic-acoustic dual-stream quantization"
+    IMTalker: "Efficient audio-driven talking face generation with implicit motion transfer"
 
 
 zh:
@@ -76,3 +78,5 @@ zh:
     meanaudio: "高质量音频生成模型"
     semanticvae: "融合语义信息引导信息的高质量语音编解码模型"
     omnicaptioner: "基于multi-agent的音频精细化描述和理解"
+    SAC: "基于声学和语义信息解耦的双流高效单层语音离散编码器"
+    IMTalker: "高效语音或视频驱动数字人模型"

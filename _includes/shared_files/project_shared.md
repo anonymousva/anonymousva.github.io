@@ -1,6 +1,16 @@
 
 
 # 2025
+> IMTalker: {{ t["project"]["IMTalker"] }}   
+> {{ t["project"]["code"] }}: [https://github.com/cbsjtu01/IMTalker ![IMTalker](https://img.shields.io/github/stars/cbsjtu01/IMTalker)](https://github.com/cbsjtu01/IMTalker)  
+> {{ t["project"]["model"] }}: [https://huggingface.co/cbsjtu01/IMTalker](https://huggingface.co/cbsjtu01/IMTalker)  
+> {{ t["project"]["demo"] }}: [https://huggingface.co/spaces/chenxie95/IMTalker](https://huggingface.co/spaces/chenxie95/IMTalker)  
+
+> SAC Neural Speech Codec: {{ t["project"]["SAC"] }}   
+> {{ t["project"]["code"] }}: [https://github.com/Soul-AILab/SAC ![SAC](https://img.shields.io/github/stars/Soul-AILab/SAC)](https://github.com/Soul-AILab/SAC)  
+> {{ t["project"]["model"] }}: [https://huggingface.co/Soul-AILab/SAC-16k-62_5Hz](https://huggingface.co/Soul-AILab/SAC-16k-62_5Hz)  
+> {{ t["project"]["demo"] }}: [https://sac-codec.github.io/](https://sac-codec.github.io/)  
+
 > Omni-Captioner: {{ t["project"]["omnicaptioner"] }}   
 > {{ t["project"]["code"] }}: [https://github.com/ddlBoJack/Omni-Captioner ![OmniCaptioner](https://img.shields.io/github/stars/ddlBoJack/Omni-Captioner)](https://github.com/ddlBoJack/Omni-Captioner)  
 > {{ t["project"]["model"] }}: [https://huggingface.co/ddlBoJack/Omni-Captioner](https://huggingface.co/ddlBoJack/Omni-Captioner)  
