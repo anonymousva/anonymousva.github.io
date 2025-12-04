@@ -1,4 +1,5 @@
 
+- Associate Editor, IEEE Transactions on Audio, Speech and Language Processing, 2025 - 
 - Workshop Chiar at Multimodal Emotion Recognition Challenge (MER25) @ACM Multimedia MRAC25 Workshop
 - LAC – Technical Program Chairs, ICASSP 2025 Satellite Event Suzhou, China
 - IEEE SPS Speech and Language Processing Technical Committee Members, 2025-2027

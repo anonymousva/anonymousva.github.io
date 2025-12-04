@@ -93,6 +93,7 @@
 > EAT: {{ t["project"]["EAT"] }}  
 > {{ t["project"]["code"] }}：[https://github.com/cwx-worst-one/EAT ![EAT](https://img.shields.io/github/stars/cwx-worst-one/EAT)](https://github.com/cwx-worst-one/EAT)  
 > {{ t["project"]["model"] }}: [HuggingFace](https://huggingface.co/collections/worstchan/eat-6815b4f1034f5214f9063948)  
+> <span style="color:red"> {{ t["project"]["EAT-note"] }}</span>
 
 # 2023
 
