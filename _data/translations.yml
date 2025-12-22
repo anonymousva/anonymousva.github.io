@@ -40,7 +40,7 @@ en:
     AUV: "Teaching Audio Universal Vector Quantization with Single Nested Codebook"
     SAC: "Neural speech codec with semantic-acoustic dual-stream quantization"
     IMTalker: "Efficient audio-driven talking face generation with implicit motion transfer"
-    XTalker: "full-duplex, low-latency, cascaded spoken dialogue system"
+    XTalk: "full-duplex, low-latency, cascaded spoken dialogue system"
 
 
 zh:
@@ -85,4 +85,4 @@ zh:
     AUV: "面向语音、声音和音乐的单层高效语音编码器"
     SAC: "基于声学和语义信息解耦的双流高效单层语音离散编码器"
     IMTalker: "高效语音或视频驱动数字人模型"
-    XTalker: "全双工，低延迟，易部署，级联对话系统"
+    XTalk: "全双工，低延迟，易部署，级联对话系统"
