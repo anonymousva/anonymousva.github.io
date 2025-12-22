@@ -1,6 +1,10 @@
 
 
 # 2025
+> X-Talk: {{ t["project"]["XTalk"] }}   
+> {{ t["project"]["code"] }}: [https://github.com/xcc-zach/xtalk ![IMTalker](https://img.shields.io/github/stars/xcc-zach/xtalk)](https://github.com/xcc-zach/xtalk)  
+> {{ t["project"]["demo"] }}: [https://xtalk.sjtuxlance.com/](https://xtalk.sjtuxlance.com/)  
+
 > IMTalker: {{ t["project"]["IMTalker"] }}   
 > {{ t["project"]["code"] }}: [https://github.com/cbsjtu01/IMTalker ![IMTalker](https://img.shields.io/github/stars/cbsjtu01/IMTalker)](https://github.com/cbsjtu01/IMTalker)  
 > {{ t["project"]["model"] }}: [https://huggingface.co/cbsjtu01/IMTalker](https://huggingface.co/cbsjtu01/IMTalker)  
