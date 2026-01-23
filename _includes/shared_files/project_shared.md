@@ -1,6 +1,4 @@
-
-
-# 2025
+# 2026
 
 > CLSP: {{ t["project"]["CLSP"] }}   
 > {{ t["project"]["code"] }}: [https://github.com/yfyeung/CLSP ![CLSP](https://img.shields.io/github/stars/yfyeung/CLSP)](https://github.com/yfyeung/CLSP)  
@@ -12,6 +10,8 @@
 > {{ t["project"]["code"] }}: [https://github.com/SWivid/Habibi-TTS ![Habibi-TTS](https://img.shields.io/github/stars/SWivid/Habibi-TTS)](https://github.com/SWivid/Habibi-TTS)  
 > {{ t["project"]["model"] }}: [https://huggingface.co/SWivid/Habibi-TTS](https://huggingface.co/SWivid/Habibi-TTS)  
 > {{ t["project"]["demo"] }}: [https://huggingface.co/spaces/chenxie95/Habibi-TTS](https://huggingface.co/spaces/chenxie95/Habibi-TTS)  
+
+# 2025
 
 > Emotional Dialectal TTS: {{ t["project"]["EmoDiaTTS"] }}   
 > {{ t["project"]["code"] }}: [https://github.com/the-bird-F/Expressive-Vectors ![EmoDiaTTS](https://img.shields.io/github/stars/the-bird-F/Expressive-Vectors)](https://github.com/the-bird-F/Expressive-Vectors)  
