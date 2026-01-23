@@ -1,4 +1,9 @@
 # 2026
+- Pengchao Feng, Yao Xiao, Ziyang Ma, Zhikang Niu, Shuai Fan, Yao Li, Sheng Wang, **Xie Chen**. *"Task Vector in TTS: Toward Emotionally Expressive Dialectal Speech Synthesis"*. In Proc. ICASSP, 2026
+- Yushen Chen, Kai Hu, Long Zhou, Shulin Feng, Xusheng Yang, Hangting Chen, **Xie Chen**. *"AUV: Teaching Audio Universal Vector Quantization with Single Nested Codebook"*, In Proc. ICASSP, 2026
+- Yifan Yang, Bing Han, Hui Wang, Long Zhou, Wei Wang, Mingyu Cui, Xu Tan, **Xie Chen**. *"Measuring Prosody Diversity in Zero-Shot TTS: A New Metric, Benchmark, and Exploration"*, In Proc. ICASSP, 2026
+- Qingyu Liu, Yushen Chen, Zhikang Niu, Chunhui Wang, Yunting Yang, Bowen Zhang, Jian Zhao, Pengcheng Zhu, Kai Yu, **Xie Chen**. *"Cross-Lingual F5-TTS: Towards Language-Agnostic Voice Cloning and Speech Synthesis"*. In Proc. ICASSP, 2026
+- Bohan Li, Wenbin Huang, Yuhang Qiu, Yiwei Guo, Hankun Wang, Zhihan Li, Jing Peng, Ziyang Ma, **Xie Chen**, Kai Yu. *"ISA-Bench: Benchmarking instruction sensitivity for large audio language models"*. In Proc. ICASSP, 2026
 - Yiwei Guo, Bohan Li, Hankun Wang, Zhihan Li, Shuai Wang, **Xie Chen**, Kai Yu. *"AHAMask: Reliable Task Specification for Large Audio Language Models without Instructions"*. In Proc. AAAI, 2026 
 - Xiaoqian Liu, Xiyan Gui, Zhengkun Ge, Yuan Ge, Chang Zou, Jiacheng Liu, Zhikang Niu, Qixi Zheng, Chen Xu, **Xie Chen**, Tong Xiao, JingBo Zhu, Linfeng Zhang. *"WaveEx: Accelerating Flow Matching-based Speech Generation via Wavelet-guided Extrapolation"*. In Proc. AAAI, 2026
 
