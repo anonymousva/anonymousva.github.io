@@ -2,6 +2,17 @@
 
 # 2025
 
+> CLSP: {{ t["project"]["CLSP"] }}   
+> {{ t["project"]["code"] }}: [https://github.com/yfyeung/CLSP ![CLSP](https://img.shields.io/github/stars/yfyeung/CLSP)](https://github.com/yfyeung/CLSP)  
+> {{ t["project"]["model"] }}: [https://huggingface.co/yfyeung/CLSP](https://huggingface.co/yfyeung/CLSP)  
+> {{ t["project"]["dataset"] }}: [https://huggingface.co/datasets/yfyeung/FCaps](https://huggingface.co/datasets/yfyeung/FCaps)  
+
+
+> Habibi-TTS: {{ t["project"]["Habibi"] }}   
+> {{ t["project"]["code"] }}: [https://github.com/SWivid/Habibi-TTS ![Habibi-TTS](https://img.shields.io/github/stars/SWivid/Habibi-TTS)](https://github.com/SWivid/Habibi-TTS)  
+> {{ t["project"]["model"] }}: [https://huggingface.co/SWivid/Habibi-TTS](https://huggingface.co/SWivid/Habibi-TTS)  
+> {{ t["project"]["demo"] }}: [https://huggingface.co/spaces/chenxie95/Habibi-TTS](https://huggingface.co/spaces/chenxie95/Habibi-TTS)  
+
 > Emotional Dialectal TTS: {{ t["project"]["EmoDiaTTS"] }}   
 > {{ t["project"]["code"] }}: [https://github.com/the-bird-F/Expressive-Vectors ![EmoDiaTTS](https://img.shields.io/github/stars/the-bird-F/Expressive-Vectors)](https://github.com/the-bird-F/Expressive-Vectors)  
 > {{ t["project"]["demo"] }}: [https://the-bird-f.github.io/Expressive-Vectors/](https://the-bird-f.github.io/Expressive-Vectors/)  

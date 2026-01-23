@@ -42,6 +42,8 @@ en:
     IMTalker: "Efficient audio-driven talking face generation with implicit motion transfer"
     XTalk: "Full-duplex, low-latency, cascaded spoken dialogue system"
     EmoDiaTTS: "Toward emotionally expressive dialectal speech Synthesis"
+    Habibi: "Multidialect Arabic TTS Model" 
+    CLSP: "Fine-Grained and Multi-Level Speech–Text Style Representation Alignment Model"
 
 
 zh:
@@ -88,3 +90,5 @@ zh:
     IMTalker: "高效语音或视频驱动数字人模型"
     XTalk: "全双工，低延迟，易部署，级联对话系统"
     EmoDiaTTS: "带情感的方言语音合成模型"
+    Habibi: "阿拉伯语多方言语音合成模型" 
+    CLSP: "面向细粒度与多层次风格描述的语音—文本表征对齐模型"
