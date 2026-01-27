@@ -49,6 +49,11 @@
 > {{ t["project"]["model"] }}: [https://huggingface.co/AndreasXi/MeanAudio](https://huggingface.co/AndreasXi/MeanAudio)  
 > {{ t["project"]["demo"] }}: [https://huggingface.co/spaces/chenxie95/MeanAudio](https://huggingface.co/spaces/chenxie95/MeanAudio)  
 
+> UltraVoice: {{ t["project"]["ultravoice"] }}   
+> {{ t["project"]["code"] }}：[https://github.com/bigai-nlco/UltraVoice ![UltraVoice](https://img.shields.io/github/stars/bigai-nlco/UltraVoice)](https://github.com/bigai-nlco/UltraVoice)  
+> {{ t["project"]["model"] }}: [https://huggingface.co/AndreasXi/MeanAudio](https://huggingface.co/tutu0604/UltraVoice-SFT)  
+> {{ t["project"]["dataset"] }}: [HuggingFace](https://huggingface.co/datasets/tutu0604/UltraVoice)  
+
 > A-DMA: {{ t["project"]["a-dma"] }}   
 > {{ t["project"]["code"] }}：[https://github.com/ZhikangNiu/A-DMA ![A-DMA](https://img.shields.io/github/stars/ZhikangNiu/A-DMA)](https://github.com/ZhikangNiu/A-DMA)  
 
