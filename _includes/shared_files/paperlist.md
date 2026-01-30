@@ -1,4 +1,8 @@
 # 2026
+- Ziyang Ma, Ruiyang Xu, Zhenghao Xing, Yunfei Chu, Yuxuan Wang, Jinzheng He, Jin Xu, Pheng-Ann Heng, Kai Yu, Junyang Lin, Eng Siong Chng, **Xie Chen**. *"Omni-Captioner: Data Pipeline, Models, and Benchmark for Omni Detailed Perception"*. In Proc. ICLR, 2026
+- Ruibin Yuan, Hanfeng Lin, Shuyue Guo, Ge Zhang, Jiahao Pan, et. al. *"Yue: Scaling open foundation models for long-form music generation"*. In Proc. ICLR, 2026
+- Haolin He, Xingjian Du, Renhe Sun, Zheqi Dai, Yujia Xiao, Mingru Yang, Jiayi Zhou, Xiquan Li, Zhengxi Liu, Zining Liang, Chunyat Wu, Qianhua He, Tan Lee, **Xie Chen**, Wei-Long Zheng, Weiqiang Wang, Mark Plumbley, Jian Liu, Qiuqiang Kong. *"Measuring Audio's Impact on Correctness: Audio-Contribution-Aware Post-Training of Large Audio Language Models"*. In Proc. ICLR, 2026
+- Zihan Liu, Zhikang Niu, Qiuyang Xiao, Zhisheng Zheng, Ruoqi Yuan, Yuhang Zang, Yuhang Cao, Xiaoyi Dong, Jianze Liang, **Xie Chen**, Leilei Sun, Dahua Lin, Jiaqi Wang. *"Star-bench: Probing deep spatio-temporal reasoning as audio 4d intelligence"*. In Proc. ICLR, 2026
 - Pengchao Feng, Yao Xiao, Ziyang Ma, Zhikang Niu, Shuai Fan, Yao Li, Sheng Wang, **Xie Chen**. *"Task Vector in TTS: Toward Emotionally Expressive Dialectal Speech Synthesis"*. In Proc. ICASSP, 2026
 - Yushen Chen, Kai Hu, Long Zhou, Shulin Feng, Xusheng Yang, Hangting Chen, **Xie Chen**. *"AUV: Teaching Audio Universal Vector Quantization with Single Nested Codebook"*, In Proc. ICASSP, 2026
 - Yifan Yang, Bing Han, Hui Wang, Long Zhou, Wei Wang, Mingyu Cui, Xu Tan, **Xie Chen**. *"Measuring Prosody Diversity in Zero-Shot TTS: A New Metric, Benchmark, and Exploration"*, In Proc. ICASSP, 2026
