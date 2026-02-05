@@ -45,6 +45,7 @@ en:
     EmoDiaTTS: "Toward emotionally expressive dialectal speech Synthesis"
     Habibi: "Multidialect Arabic TTS Model" 
     CLSP: "Fine-Grained and Multi-Level Speech–Text Style Representation Alignment Model"
+    AudioControlNet: "Audio ControlNet for Fine-Grained Audio Generation and Editing"
 
 
 zh:
@@ -94,3 +95,4 @@ zh:
     EmoDiaTTS: "带情感的方言语音合成模型"
     Habibi: "阿拉伯语多方言语音合成模型" 
     CLSP: "面向细粒度与多层次风格描述的语音—文本表征对齐模型"
+    AudioControlNet: "细粒度音频生成与编辑"

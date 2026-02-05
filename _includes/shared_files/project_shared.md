@@ -1,6 +1,12 @@
 
 # 2026
 
+
+> Audio ControlNet: {{ t["project"]["AudioControNet"] }}   
+> {{ t["project"]["code"] }}: [https://github.com/juhayna-zh/AudioControlNet ![AudioControlNet](https://img.shields.io/github/stars/juhayna-zh/AudioControlNet)](https://github.com/juhayna-zh/AudioControlNet)  
+> {{ t["project"]["model"] }}: [https://huggingface.co/juhayna/audio-controlnet](https://huggingface.co/juhayna/audio-controlnet)  
+> {{ t["project"]["demo"] }}: [https://huggingface.co/spaces/chenxie95/AudioControlNet](https://huggingface.co/spaces/chenxie95/AudioControlNet)  
+
 > CLSP: {{ t["project"]["CLSP"] }}   
 > {{ t["project"]["code"] }}: [https://github.com/yfyeung/CLSP ![CLSP](https://img.shields.io/github/stars/yfyeung/CLSP)](https://github.com/yfyeung/CLSP)  
 > {{ t["project"]["model"] }}: [https://huggingface.co/yfyeung/CLSP](https://huggingface.co/yfyeung/CLSP)  
