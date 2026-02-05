@@ -2,7 +2,7 @@
 # 2026
 
 
-> Audio ControlNet: {{ t["project"]["AudioControNet"] }}   
+> Audio ControlNet: {{ t["project"]["AudioControlNet"] }}   
 > {{ t["project"]["code"] }}: [https://github.com/juhayna-zh/AudioControlNet ![AudioControlNet](https://img.shields.io/github/stars/juhayna-zh/AudioControlNet)](https://github.com/juhayna-zh/AudioControlNet)  
 > {{ t["project"]["model"] }}: [https://huggingface.co/juhayna/audio-controlnet](https://huggingface.co/juhayna/audio-controlnet)  
 > {{ t["project"]["demo"] }}: [https://huggingface.co/spaces/chenxie95/AudioControlNet](https://huggingface.co/spaces/chenxie95/AudioControlNet)  
