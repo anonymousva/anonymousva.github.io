@@ -148,12 +148,15 @@
 
 > FISHER: {{ t["project"]["FISHER"] }}    
 > {{ t["project"]["code"] }}: [https://github.com/jianganbai/FISHER ![FISHER](https://img.shields.io/github/stars/jianganbai/FISHER)](https://github.com/jianganbai/FISHER)  
+> {{ t["project"]["model"] }}: [https://huggingface.co/collections/jiangab/fisher](https://huggingface.co/collections/jiangab/fisher)  
 
 > Spark-TTS: {{ t["project"]["Spark-TTS"] }}    
 > {{ t["project"]["code"] }}: [https://github.com/SparkAudio/Spark-TTS ![Spark-TTS](https://img.shields.io/github/stars/SparkAudio/Spark-TTS)](https://github.com/SparkAudio/Spark-TTS)  
+> {{ t["project"]["model"] }}: [https://huggingface.co/SparkAudio/Spark-TTS-0.5B](https://huggingface.co/SparkAudio/Spark-TTS-0.5B)  
 
 > YuE: {{ t["project"]["YuE"] }}    
 > {{ t["project"]["code"] }}: [https://github.com/multimodal-art-projection/YuE ![YuE](https://img.shields.io/github/stars/multimodal-art-projection/YuE)](https://github.com/multimodal-art-projection/YuE)  
+> {{ t["project"]["model"] }}: [https://huggingface.co/collections/m-a-p/yue](https://huggingface.co/collections/m-a-p/yue)  
 
 > AniTalker: {{ t["project"]["AniTalker"] }}    
 > {{ t["project"]["code"] }}: [https://github.com/X-LANCE/AniTalker ![AniTalker](https://img.shields.io/github/stars/X-LANCE/AniTalker)](https://github.com/X-LANCE/AniTalker)  
