@@ -4,7 +4,7 @@
 
 > Audio ControlNet: {{ t["project"]["AudioControlNet"] }}   
 > {{ t["project"]["code"] }}: [https://github.com/juhayna-zh/AudioControlNet ![AudioControlNet](https://img.shields.io/github/stars/juhayna-zh/AudioControlNet)](https://github.com/juhayna-zh/AudioControlNet)  
-> {{ t["project"]["model"] }}: [https://huggingface.co/juhayna/audio-controlnet](https://huggingface.co/juhayna/audio-controlnet)  
+> {{ t["project"]["model"] }}: [https://huggingface.co/collections/juhayna/audio-controlnet](https://huggingface.co/collections/juhayna/audio-controlnet)  
 > {{ t["project"]["demo"] }}: [https://huggingface.co/spaces/chenxie95/AudioControlNet](https://huggingface.co/spaces/chenxie95/AudioControlNet)  
 
 > CLSP: {{ t["project"]["CLSP"] }}   
@@ -141,6 +141,10 @@
 
 
 # {{ t["project"]["other_project_brief"] }}
+
+> OpenMOSS MOVA: {{ t["project"]["MOVA"] }}   
+> {{ t["project"]["code"] }}: [https://github.com/OpenMOSS/MOVA ![MOVA](https://img.shields.io/github/stars/OpenMOSS/MOVA)](https://github.com/OpenMOSS/MOVA)  
+> {{ t["project"]["model"] }}: [https://huggingface.co/collections/OpenMOSS-Team/mova](https://huggingface.co/collections/OpenMOSS-Team/mova)  
 
 > FISHER: {{ t["project"]["FISHER"] }}    
 > {{ t["project"]["code"] }}: [https://github.com/jianganbai/FISHER ![FISHER](https://img.shields.io/github/stars/jianganbai/FISHER)](https://github.com/jianganbai/FISHER)  
