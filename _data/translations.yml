@@ -47,6 +47,7 @@ en:
     CLSP: "Fine-Grained and Multi-Level Speech–Text Style Representation Alignment Model"
     AudioControlNet: "Audio ControlNet for Fine-Grained Audio Generation and Editing"
     MOVA: "Towards Scalable and Synchronized Video–Audio Generation"
+    Resonate: "Reinforcing Text-to-Audio Generation with Online Feedbacks from Large Audio Language Models"
 
 
 zh:
@@ -98,3 +99,4 @@ zh:
     CLSP: "面向细粒度与多层次风格描述的语音—文本表征对齐模型"
     AudioControlNet: "细粒度音频生成与编辑"
     MOVA: "音视频生成模型"
+    Resonate: "基于音频大模型在线反馈的音频生成模型"

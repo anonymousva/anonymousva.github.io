@@ -1,6 +1,11 @@
 
 # 2026
 
+> Resonate: {{ t["project"]["Resonate"] }}   
+> {{ t["project"]["code"] }}: [https://github.com/xiquan-li/Resonate ![Resonate](https://img.shields.io/github/stars/xiquan-li/Resonate
+)](https://github.com/xiquan-li/Resonate)  
+> {{ t["project"]["model"] }}: [https://huggingface.co/AndreasXi/Resonate](https://huggingface.co/AndreasXi/Resonate)  
+> {{ t["project"]["demo"] }}: [https://huggingface.co/spaces/chenxie95/Resonate](https://huggingface.co/spaces/chenxie95/Resonate)  
 
 > Audio ControlNet: {{ t["project"]["AudioControlNet"] }}   
 > {{ t["project"]["code"] }}: [https://github.com/juhayna-zh/AudioControlNet ![AudioControlNet](https://img.shields.io/github/stars/juhayna-zh/AudioControlNet)](https://github.com/juhayna-zh/AudioControlNet)  
