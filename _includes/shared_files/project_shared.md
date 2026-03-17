@@ -1,9 +1,13 @@
 
 # 2026
 
+> SoulX-Duplug: {{ t["project"]["SoulX-Duplug"] }}   
+> {{ t["project"]["code"] }}: [https://github.com/Soul-AILab/SoulX-Duplug ![SoulX-Duplug](https://img.shields.io/github/stars/Soul-AILab/SoulX-Duplug)](https://github.com/Soul-AILab/SoulX-Duplug)  
+> {{ t["project"]["model"] }}: [https://huggingface.co/Soul-AILab/SoulX-Duplug-0.6B](https://huggingface.co/Soul-AILab/SoulX-Duplug-0.6B)  
+> {{ t["project"]["demo"] }}: [https://soulx-duplug.sjtuxlance.com/](https://soulx-duplug.sjtuxlance.com/)  
+
 > Resonate: {{ t["project"]["Resonate"] }}   
-> {{ t["project"]["code"] }}: [https://github.com/xiquan-li/Resonate ![Resonate](https://img.shields.io/github/stars/xiquan-li/Resonate
-)](https://github.com/xiquan-li/Resonate)  
+> {{ t["project"]["code"] }}: [https://github.com/xiquan-li/Resonate ![Resonate](https://img.shields.io/github/stars/xiquan-li/Resonate)](https://github.com/xiquan-li/Resonate)  
 > {{ t["project"]["model"] }}: [https://huggingface.co/AndreasXi/Resonate](https://huggingface.co/AndreasXi/Resonate)  
 > {{ t["project"]["demo"] }}: [https://huggingface.co/spaces/chenxie95/Resonate](https://huggingface.co/spaces/chenxie95/Resonate)  
 
