@@ -23,6 +23,7 @@ My current research interests include:
 - Audio (including speech, sound, and music) understanding and generation   
 - Speech recognition, synthesis, and translation  
 - Self-supervised learning for audio signal  
+- Agent-driven voice interactive system
 - Audio-driven talking-face (Avatar)   
 
 
