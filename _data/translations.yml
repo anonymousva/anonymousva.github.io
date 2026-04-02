@@ -49,6 +49,7 @@ en:
     MOVA: "Towards Scalable and Synchronized Video–Audio Generation"
     Resonate: "Reinforcing Text-to-Audio Generation with Online Feedbacks from Large Audio Language Models"
     SoulX-Duplug: "Plug-and-Play Streaming State Prediction Module for Realtime Full-Duplex Speech Conversation"
+    FineLAP: "Taming Heterogeneous Supervision for Fine-grained Language-Audio Pretraining"
 
 
 zh:
@@ -102,3 +103,4 @@ zh:
     MOVA: "音视频生成模型"
     Resonate: "基于音频大模型在线反馈的音频生成模型"
     SoulX-Duplug: "可插拔式全双工语音对话状态流式预测模型(流式语义VAD)"
+    FineLAP: "面向帧级别对齐的细粒度音频语言模型"

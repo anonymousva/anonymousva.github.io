@@ -1,6 +1,11 @@
 
 # 2026
 
+> FineLAP: {{ t["project"]["FineLAP"] }}   
+> {{ t["project"]["code"] }}: [https://github.com/xiquan-li/FineLAP ![xiquan-li/FineLAP](https://img.shields.io/github/stars/xiquan-li/FineLAP)](https://github.com/xiquan-li/FineLAP)  
+> {{ t["project"]["model"] }}: [https://huggingface.co/AndreasXi/FineLAP](https://huggingface.co/AndreasXi/FineLAP)  
+> {{ t["project"]["dataset"] }}: [https://huggingface.co/datasets/AndreasXi/FineLAP-100k](https://huggingface.co/datasets/AndreasXi/FineLAP-100k)  
+
 > SoulX-Duplug: {{ t["project"]["SoulX-Duplug"] }}   
 > {{ t["project"]["code"] }}: [https://github.com/Soul-AILab/SoulX-Duplug ![SoulX-Duplug](https://img.shields.io/github/stars/Soul-AILab/SoulX-Duplug)](https://github.com/Soul-AILab/SoulX-Duplug)  
 > {{ t["project"]["model"] }}: [https://huggingface.co/Soul-AILab/SoulX-Duplug-0.6B](https://huggingface.co/Soul-AILab/SoulX-Duplug-0.6B)  
