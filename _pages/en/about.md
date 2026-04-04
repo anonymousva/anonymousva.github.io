@@ -54,7 +54,7 @@ I currently teach the following core courses:
 
 # Openings
 
-We are committed to building an open, relaxed, and collaborative research environment, where every student can grow and find a path that suits them.
+We firmly believe that the most important mission of our laboratory is to cultivate outstanding students. To this end, we are committed to building an open, relaxed, and collaborative research environment, where every student can grow and find a path that suits them.
 
 We are always looking for excellent students — including undergraduates, master's students, and Ph.D. candidates — who are curious, courageous, and passionate about research, to explore the future of AI and work together on meaningful and impactful research.
 
