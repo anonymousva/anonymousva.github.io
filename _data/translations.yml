@@ -50,6 +50,9 @@ en:
     Resonate: "Reinforcing Text-to-Audio Generation with Online Feedbacks from Large Audio Language Models"
     SoulX-Duplug: "Plug-and-Play Streaming State Prediction Module for Realtime Full-Duplex Speech Conversation"
     FineLAP: "Taming Heterogeneous Supervision for Fine-grained Language-Audio Pretraining"
+    X-VC: "Zero-shot Streaming Voice Conversion in Codec Space"
+    X-Voice: "Enabling Everyone to Speak 30 Languages via Zero-Shot Cross-Lingual Voice Cloning"
+    WavCube: "Unifying Speech Representation for Understanding and Generation via Semantic-Acoustic Joint Modeling"
 
 
 zh:
@@ -104,3 +107,6 @@ zh:
     Resonate: "基于音频大模型在线反馈的音频生成模型"
     SoulX-Duplug: "可插拔式全双工语音对话状态流式预测模型(流式语义VAD)"
     FineLAP: "面向帧级别对齐的细粒度音频语言模型"
+    X-VC: "基于离散码本空间的零样本流式语音转换模型"
+    X-Voice: "多语言语音合成模型(支持30种语言)"
+    WavCube: "面向语音理解与生成统一的连续表征模型"
