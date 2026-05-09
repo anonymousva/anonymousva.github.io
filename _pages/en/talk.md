@@ -10,7 +10,7 @@ lang: en
 ---
 
 # Talks
-
+- "Multilingual Speech Recognition and Synthesis", ICASSP Tutorial, 2026
 - "Speech Synthesis with Discrete Speech Tokens", ICASSP Tutorial, 2025
 - "Speech Synthesis with Discrete Speech Tokens", NCMMSC Tutorial, 2025
 - "Multi-Modal Large Language Modeling", ISCSLP Tutorial, 2024

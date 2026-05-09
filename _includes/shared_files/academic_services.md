@@ -11,3 +11,8 @@
 
    \- Organizers: Xuankai Chang, Jiatong Shi, Shinji Watanabe, Yossi Adi, **Xie Chen**, Qin Jin
 
+- Audio Reasoning Challenge @ INTERSPEECH, 2026.
+   \- Organizers: Ziyang Ma, Yinghao Ma, Chao-Han Huck Yang, Ruiyang Xu, Bohan Li, Jaeyeon Kim, Jin Xu, Jinyu Li, Carlos Busso, Kai Yu, Eng Siong Chng, **Xie Chen** 
+
+- Question Answering and Reasoning on Audio and Time-Series Data, Special Session @ ICASSP, 2026.
+    \- Organizers: Yohei Kawaguchi, Chao-Han Huck Yang, Ziyang Ma, **Xie Chen**, Eng Siong Chng, Aaqib Saeed
