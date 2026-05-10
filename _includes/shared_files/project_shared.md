@@ -1,6 +1,21 @@
 
 # 2026
 
+> WavCube: {{ t["project"]["WavCube"] }}   
+> {{ t["project"]["code"] }}: [https://github.com/yanghaha0908/WavCube ![yanghaha0908/WavCube](https://img.shields.io/github/stars/yanghaha0908/WavCube)](https://github.com/yanghaha0908/WavCube)  
+> {{ t["project"]["model"] }}: [https://huggingface.co/yhaha/WavCube](https://huggingface.co/yhaha/WavCube)  
+
+> X-Voice: {{ t["project"]["X-Voice"] }}   
+> {{ t["project"]["code"] }}: [https://github.com/sunnyxrxrx/X-Voice ![sunnyxrxrx/X-Voice](https://img.shields.io/github/stars/sunnyxrxrx/X-Voice)](https://github.com/sunnyxrxrx/X-Voice)  
+> {{ t["project"]["model"] }}: [https://huggingface.co/XRXRX/X-Voice](https://huggingface.co/XRXRX/X-Voice)  
+> {{ t["project"]["demo"] }}: [https://huggingface.co/spaces/chenxie95/X-Voice](https://huggingface.co/spaces/chenxie95/X-Voice)  
+> {{ t["project"]["dataset"] }}: [https://huggingface.co/datasets/XRXRX/X-Voice-Dataset-Train](https://huggingface.co/datasets/XRXRX/X-Voice-Dataset-Train)  
+
+> X-VC: {{ t["project"]["X-VC"] }}   
+> {{ t["project"]["code"] }}: [https://github.com/Jerrister/X-VC ![Jerrister/X-VC](https://img.shields.io/github/stars/Jerrister/X-VC)](https://github.com/Jerrister/X-VC)  
+> {{ t["project"]["model"] }}: [https://huggingface.co/chenxie95/X-VC](https://huggingface.co/chenxie95/X-VC)  
+> {{ t["project"]["demo"] }}: [https://x-vc.sjtuxlance.com/](https://x-vc.sjtuxlance.com/)  
+
 > FineLAP: {{ t["project"]["FineLAP"] }}   
 > {{ t["project"]["code"] }}: [https://github.com/xiquan-li/FineLAP ![xiquan-li/FineLAP](https://img.shields.io/github/stars/xiquan-li/FineLAP)](https://github.com/xiquan-li/FineLAP)  
 > {{ t["project"]["model"] }}: [https://huggingface.co/AndreasXi/FineLAP](https://huggingface.co/AndreasXi/FineLAP)  

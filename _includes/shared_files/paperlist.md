@@ -1,4 +1,6 @@
 # 2026
+- Yunchong Xiao, Yuxiang Zhao, Ziyang Ma, Shuai Wang, Kai Yu, Jiachun Liao, **Xie Chen**. *"Anonymization, Not Elimination: Utility-Preserved Speech Anonymization"*. In IEEE TASLP, 2026
+- Yexing Du, Kaiyuan Liu, Youcheng Pan, Bo Yang, Keqi Deng, **Xie Chen**, Yang Xiang, Ming Liu, Bing Qin, YaoWei Wang. *"MCAT: Scaling Many-to-Many Speech-to-Text Translation with MLLMs to 70 Languages"*. In IEEE TASLP, 2026
 - Xiquan Li, junxi liu, Yuzhe Liang, Zhikang Niu, Wenxi Chen, **Xie Chen**. *"MeanAudio: Fast and Faithful Text-to-Audio Generation with Mean Flows"*. In Proc. ACL, 2026
 - Xiquan Li, Xuenan Xu, Ziyang Ma, Wenxi Chen, Haolin He, Qiuqiang Kong, **Xie Chen**. *"FineLAP: Taming Heterogeneous Supervision for Fine-grained Language-Audio Pretraining"*. In Prc. ACL, 2026
 - Tianrui Wang, Ziyang Ma, Yizhou Peng, Haoyu Wang, Zhikang Niu, Zikang Huang, Yihao Wu, Yi-Wen Chao, Yu Jiang, Yuheng Lu, Guanrou Yang, Xuanchen Li, Hexin Liu, Chunyu Qiang, Cheng Gong, Yifan Yang, Tianchi Liu, Junyu Wang, Nana Hou, Meng Ge, Fuming You, Yang Wei, Zhongqian Sun, Hu Haifeng, Xiaobao Wang, Eng Siong Chng, **Xie Chen**, Longbiao Wang, Jianwu Dang. *"Evaluating the Expressive Appropriateness of Speech in Rich Contexts"*. In Proc. ACL, 2026
