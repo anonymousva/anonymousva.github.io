@@ -104,8 +104,7 @@
 
 > muQ: {{ t["project"]["muQ"] }}  
 > {{ t["project"]["code"] }}: [https://github.com/tencent-ailab/MuQ ![MuQ](https://img.shields.io/github/stars/tencent-ailab/MuQ)](https://github.com/tencent-ailab/MuQ)   
-> {{ t["project"]["model"] }}: [MuQ-large](https://huggingface.co/OpenMuQ/MuQ-large-msd-iter), [MuQ-MuLan-large](https://huggingface.co/OpenMuQ/MuQ-MuLan-large)  
-> <span style="color:red"> {{ t["project"]["muQ-note"] }}</span>
+> {{ t["project"]["model"] }}: [MuQ-large](https://huggingface.co/OpenMuQ/MuQ-large-msd-iter), [MuQ-MuLan-large](https://huggingface.co/OpenMuQ/MuQ-MuLan-large) 
 
 
 # 2024
@@ -121,7 +120,6 @@
 > {{ t["project"]["code"] }}: [https://github.com/SWivid/F5-TTS ![F5-TTS](https://img.shields.io/github/stars/SWivid/F5-TTS)](https://github.com/SWivid/F5-TTS)   
 > {{ t["project"]["model"] }}: [https://huggingface.co/SWivid/F5-TTS](https://huggingface.co/SWivid/F5-TTS)   
 > {{ t["project"]["demo"] }}: [https://huggingface.co/spaces/mrfakename/E2-F5-TTS](https://huggingface.co/spaces/mrfakename/E2-F5-TTS)   
-> <span style="color:red"> {{ t["project"]["F5-TTS-note"] }}</span>
 
 > EmoBox: {{ t["project"]["EmoBox"] }}   
 > {{ t["project"]["code"] }}：[https://github.com/emo-box/EmoBox ![EmoBox](https://img.shields.io/github/stars/emo-box/EmoBox)](https://github.com/emo-box/EmoBox)  
@@ -129,17 +127,14 @@
 > Gigaspeech 2: {{ t["project"]["Gigaspeech2"] }}   
 > {{ t["project"]["code"] }}：[https://github.com/SpeechColab/GigaSpeech2 ![GigaSpeech2](https://img.shields.io/github/stars/SpeechColab/GigaSpeech2)](https://github.com/SpeechColab/GigaSpeech2)  
 > {{ t["project"]["dataset"] }}: [ModelScope](https://modelscope.cn/datasets/AI-ModelScope/gigaspeech2) | [HuggingFace](https://huggingface.co/datasets/speechcolab/gigaspeech2)  
-> <span style="color:red"> {{ t["project"]["Gigaspeech2-note"] }}</span>
 
 > emotion2vec: {{ t["project"]["emotion2vec"] }}   
 > {{ t["project"]["code"] }}：[https://github.com/ddlBoJack/emotion2vec ![emotion2vec](https://img.shields.io/github/stars/ddlBoJack/emotion2vec)](https://github.com/ddlBoJack/emotion2vec)  
 > {{ t["project"]["model"] }}: [emotion2vec_plus_large](https://modelscope.cn/models/iic/emotion2vec_plus_large/summary) |   [emotion2vec_base_finetuned](https://modelscope.cn/models/iic/emotion2vec_base_finetuned) | [emotion2vec_base](https://modelscope.cn/models/iic/emotion2vec_base)    
-> <span style="color:red"> {{ t["project"]["emotion2vec-note"] }}</span>
 
 > EAT: {{ t["project"]["EAT"] }}  
 > {{ t["project"]["code"] }}：[https://github.com/cwx-worst-one/EAT ![EAT](https://img.shields.io/github/stars/cwx-worst-one/EAT)](https://github.com/cwx-worst-one/EAT)  
 > {{ t["project"]["model"] }}: [HuggingFace](https://huggingface.co/collections/worstchan/eat-6815b4f1034f5214f9063948)  
-> <span style="color:red"> {{ t["project"]["EAT-note"] }}</span>
 
 # 2023
 
@@ -154,7 +149,7 @@
 > {{ t["project"]["code"] }}: [https://github.com/Moon0316/T2A ![Text2Animation](https://img.shields.io/github/stars/Moon0316/T2A)](https://github.com/Moon0316/T2A)  
 
 
-# {{ t["project"]["other_project_brief"] }}
+# {{ t["project"]["other_project_brief"] }} {#other-projects-section} 
 
 > OpenMOSS MOVA: {{ t["project"]["MOVA"] }}   
 > {{ t["project"]["code"] }}: [https://github.com/OpenMOSS/MOVA ![MOVA](https://img.shields.io/github/stars/OpenMOSS/MOVA)](https://github.com/OpenMOSS/MOVA)  
