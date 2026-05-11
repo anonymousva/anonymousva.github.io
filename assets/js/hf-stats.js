@@ -48,8 +48,8 @@
     n = n || 0;
     if (!raw) n = truncate2Digits(n);
     if (lang === 'zh') {
-      if (n >= 100000000) return Math.round(n / 1000000) / 100 + '亿';
-      if (n >= 10000) return Math.round(n / 10000) + '万';
+      if (n >= 100000000) return Math.floor(n / 1000000) / 100 + '亿';
+      if (n >= 10000) return Math.floor(n / 10000) + '万';
       return n.toLocaleString();
     } else {
       if (n >= 1000000000) {
@@ -61,7 +61,7 @@
         return (v % 1 === 0 ? v.toFixed(0) : v.toFixed(1).replace(/\.0$/, '')) + ' million';
       }
       if (n >= 1000) {
-        return Math.round(n / 1000) + 'K';
+        return Math.floor(n / 1000) + 'K';
       }
       return n.toLocaleString();
     }
