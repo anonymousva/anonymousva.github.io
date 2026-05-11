@@ -2,7 +2,27 @@
 (function() {
   var CACHE_KEY = 'hf_download_stats_v3';
   var CACHE_TTL = 1000 * 60 * 30;
-  var MODELSCOPE_FIXED = 50000000;
+  // ModelScope 固定下载量配置（keyword 匹配链接 URL，便于后续添加其他 ModelScope 项目）
+  var MODELSCOPE_CONFIG = {
+    'emotion2vec': { downloads: 50000000, name: 'emotion2vec' }
+  };
+
+  // 计算页面上所有不重复的 ModelScope 配置项目总下载量
+  function getModelScopeGlobalTotal() {
+    var total = 0;
+    var seen = {};
+    document.querySelectorAll('blockquote:not(.hf-skip-stats) a[href*="modelscope.cn"]').forEach(function(a) {
+      var url = a.href;
+      Object.keys(MODELSCOPE_CONFIG).forEach(function(keyword) {
+        if (url.indexOf(keyword) >= 0 && !seen[keyword]) {
+          seen[keyword] = true;
+          total += MODELSCOPE_CONFIG[keyword].downloads;
+        }
+      });
+    });
+    return total;
+  }
+
   var THRESHOLD_ALL = 100000;
   var THRESHOLD_MONTH = 10000;
 
@@ -69,23 +89,34 @@
 
   // Tooltip CSS
   var style = document.createElement('style');
-  style.textContent = '.hf-auto-download{position:relative;display:block;margin-top:0.4em;}.hf-info-wrap{position:relative;display:inline-block;vertical-align:middle;}.hf-info{font-style:normal;cursor:pointer;margin-left:4px;color:#888;font-size:0.85em;vertical-align:middle;}.hf-tooltip{display:none;position:absolute;bottom:100%;left:50%;transform:translateX(-50%);background:#fff;border:1px solid #ddd;border-radius:6px;padding:8px 12px;font-size:0.82em;color:#333;box-shadow:0 2px 8px rgba(0,0,0,0.1);z-index:100;white-space:normal;line-height:1.6;min-width:220px;margin-bottom:6px;text-align:left;}.hf-info-wrap:hover .hf-tooltip{display:block;}.hf-tooltip-row{display:flex;justify-content:space-between;gap:1em;margin:2px 0;}.hf-tooltip-label{color:#666;}.hf-tooltip-num{color:#111;font-weight:500;white-space:nowrap;}';
+  style.textContent = '.hf-auto-download{position:relative;display:block;margin-top:0.4em;}.hf-info-wrap{position:relative;display:inline-block;vertical-align:middle;}.hf-info{font-style:normal;cursor:pointer;margin-left:4px;color:#888;font-size:0.85em;vertical-align:middle;}.hf-tooltip{display:none;position:absolute;bottom:100%;left:50%;transform:translateX(-50%);background:#fff;border:1px solid #ddd;border-radius:6px;padding:8px 12px;font-size:0.82em;color:#333;box-shadow:0 2px 8px rgba(0,0,0,0.1);z-index:100;white-space:normal;line-height:1.6;min-width:220px;margin-bottom:6px;text-align:left;}.hf-info-wrap:hover .hf-tooltip{display:block;}.hf-tooltip-row{display:flex;justify-content:space-between;gap:1em;margin:2px 0;}.hf-tooltip-label{color:#666;}.hf-tooltip-num{color:#111;font-weight:500;white-space:nowrap;}.hf-panels-wrap{display:flex;flex-wrap:wrap;gap:1.5em;}.hf-panels-wrap>div{flex:1;min-width:280px;}';
   document.head.appendChild(style);
 
-  // 创建统计面板
-  var panel = document.createElement('div');
-  panel.id = 'hf-stats-panel';
-  panel.style.cssText = 'margin:2em 0;padding:1.2em;background:#f8fafc;border:1px solid #e2e8f0;border-radius:10px;';
-  panel.innerHTML = '<h3 style="margin:0 0 0.8em 0;font-size:1.1em;">' + i18n.title + '</h3>'
+  // 创建两个独立 panel
+  var hfPanel = document.createElement('div');
+  hfPanel.id = 'hf-stats-panel';
+  hfPanel.style.cssText = 'padding:1.2em;background:#f8fafc;border:1px solid #e2e8f0;border-radius:10px;';
+  hfPanel.innerHTML = '<h3 style="margin:0 0 0.8em 0;font-size:1.1em;">' + i18n.title + '</h3>'
     + '<div id="hf-stats-result"></div>'
     + '<div id="hf-stats-detail" style="display:none;margin-top:1em;font-size:0.85em;color:#666;"></div>';
 
+  var ghPanel = document.createElement('div');
+  ghPanel.id = 'github-stats-panel';
+  ghPanel.style.cssText = 'padding:1.2em;background:#f8fafc;border:1px solid #e2e8f0;border-radius:10px;';
+
   var customContainer = document.getElementById('download-stat-panel');
   if (customContainer) {
-    customContainer.appendChild(panel);
+    customContainer.className = 'hf-panels-wrap';
+    customContainer.appendChild(hfPanel);
+    customContainer.appendChild(ghPanel);
   } else {
+    var wrap = document.createElement('div');
+    wrap.className = 'hf-panels-wrap';
+    wrap.style.cssText = 'margin:2em 0;';
+    wrap.appendChild(hfPanel);
+    wrap.appendChild(ghPanel);
     var section = document.querySelector('.page__content');
-    if (section) section.insertBefore(panel, section.firstChild);
+    if (section) section.insertBefore(wrap, section.firstChild);
   }
 
   // 标记 other-projects-section 之后的 blockquote 为跳过
@@ -197,23 +228,26 @@
       var hasHF = false, hasMS = false, hasModel = false, hasDataset = false;
       var detailLines = [];
 
-      var msFixedAdded = false;
+      var msFixedAdded = {};
       Array.from(bq.querySelectorAll('a[href*="huggingface.co"], a[href*="modelscope.cn"]')).forEach(function(a) {
         var url = a.href;
 
-        // emotion2vec ModelScope 固定值
-        if (url.indexOf('modelscope.cn') >= 0 && url.indexOf('emotion2vec') >= 0) {
-          hasMS = true;
-          if (!msFixedAdded) {
-            allTimeSum += MODELSCOPE_FIXED;
-            msFixedAdded = true;
-            detailLines.push({
-              name: 'emotion2vec (ModelScope)',
-              allTime: MODELSCOPE_FIXED,
-              monthly: 0,
-              fixed: true
-            });
-          }
+        // ModelScope 固定值（从配置表匹配）
+        if (url.indexOf('modelscope.cn') >= 0) {
+          Object.keys(MODELSCOPE_CONFIG).forEach(function(keyword) {
+            if (url.indexOf(keyword) >= 0 && !msFixedAdded[keyword]) {
+              var cfg = MODELSCOPE_CONFIG[keyword];
+              hasMS = true;
+              allTimeSum += cfg.downloads;
+              msFixedAdded[keyword] = true;
+              detailLines.push({
+                name: cfg.name + ' (ModelScope)',
+                allTime: cfg.downloads,
+                monthly: 0,
+                fixed: true
+              });
+            }
+          });
           return;
         }
 
@@ -381,7 +415,7 @@
         var s = finalStatsMap[key];
         all += s.allTime; month += s.monthly; count++;
       }
-      all += MODELSCOPE_FIXED;
+      all += getModelScopeGlobalTotal();
       // 只增不减：panel 和顶部文字不显示中间的小值
       if (all > displayedTotalAll) displayedTotalAll = all;
       if (month > displayedTotalMonth) displayedTotalMonth = month;
@@ -434,6 +468,117 @@
       fetchRepos();
     }
   }
+
+  // GitHub Stars 统计（使用 shields.io JSON 接口，避免 GitHub API rate limit）
+  var GITHUB_CACHE_KEY = 'github_stars_v4';
+  var GITHUB_CACHE_TTL = 0; // 不缓存，每次打开都重新拉取
+
+  var githubRepos = [];
+  var githubRepoMap = {};
+  document.querySelectorAll('blockquote:not(.hf-skip-stats) a[href*="github.com"]').forEach(function(a) {
+    try {
+      var url = new URL(a.href);
+      if (url.hostname !== 'github.com') return;
+      var parts = url.pathname.split('/').filter(function(p) { return p; });
+      if (parts.length < 2) return;
+      var owner = parts[0], name = parts[1];
+      if (['topics','marketplace','orgs','collections','features','github'].indexOf(owner) >= 0) return;
+      var key = owner + '/' + name;
+      if (!githubRepoMap[key]) {
+        githubRepoMap[key] = true;
+        githubRepos.push({ owner: owner, name: name });
+      }
+    } catch(e) {}
+  });
+  console.log('[GitHub] repos found:', githubRepos.length);
+
+  function renderGitHubStars(total, count, status) {
+    var ghI18n = lang === 'zh'
+      ? { title: '⭐ GitHub Stars', total: '总Star数', count: '仓库数', cached: '缓存', loading: '统计中' }
+      : { title: '⭐ GitHub Stars', total: 'Total Stars', count: 'Repos', cached: 'cached', loading: 'updating' };
+    var badge = '';
+    if (status === 'cached') badge = '<span style="font-size:0.8em;color:#888;margin-left:0.5em;">(' + ghI18n.cached + ')</span>';
+    else if (status === 'loading') badge = '<span style="font-size:0.8em;color:#888;margin-left:0.5em;">(' + ghI18n.loading + ')</span>';
+    ghPanel.innerHTML = '<h3 style="margin:0 0 0.8em 0;font-size:1.1em;">' + ghI18n.title + '</h3>'
+      + '<div style="display:flex;gap:2em;flex-wrap:wrap;align-items:center;">'
+      + '<div><span style="color:#64748b;font-size:0.85em;">' + ghI18n.total + '</span><br>'
+      + '<span style="color:#1a1a1a;font-size:1.5em;font-weight:600;">' + total.toLocaleString() + '</span>' + badge + '</div>'
+      + '<div><span style="color:#64748b;font-size:0.85em;">' + ghI18n.count + '</span><br>'
+      + '<span style="color:#1a1a1a;font-size:1.5em;font-weight:600;">' + count + '</span></div>'
+      + '</div>';
+  }
+
+  // 解析 shields.io 返回的格式化数字，如 "14k" -> 14000, "1.2M" -> 1200000
+  function parseShieldStars(str) {
+    str = (str || '').trim().toLowerCase().replace(/,/g, '');
+    if (str.endsWith('k')) return Math.round(parseFloat(str) * 1000);
+    if (str.endsWith('m')) return Math.round(parseFloat(str) * 1000000);
+    if (str.endsWith('b')) return Math.round(parseFloat(str) * 1000000000);
+    var n = parseInt(str, 10);
+    return isNaN(n) ? 0 : n;
+  }
+
+  function fetchGitHubRepo(repo) {
+    return fetch('https://img.shields.io/github/stars/' + repo.owner + '/' + repo.name + '.json', {
+      cache: 'no-store'
+    })
+    .then(function(r) { return r.ok ? r.json() : Promise.reject(r.status); })
+    .then(function(data) {
+      var stars = parseShieldStars(data.message || data.value);
+      return { key: repo.owner + '/' + repo.name, stars: stars };
+    })
+    .catch(function(status) {
+      console.log('[GitHub/shields] failed ' + repo.owner + '/' + repo.name + ': ' + status);
+      return null;
+    });
+  }
+
+  function fetchAllGitHubStars() {
+    var ghCached = null;
+    try { ghCached = JSON.parse(localStorage.getItem(GITHUB_CACHE_KEY)); } catch(e) {}
+    if (ghCached && (Date.now() - ghCached.time) < GITHUB_CACHE_TTL) {
+      renderGitHubStars(ghCached.totalStars, ghCached.repoCount, 'cached');
+      return;
+    }
+    if (githubRepos.length === 0) {
+      renderGitHubStars(0, 0, 'done');
+      return;
+    }
+    // shields.io 并发限制较宽松，每批 15 个，间隔 150ms
+    var BATCH_SIZE = 15;
+    var DELAY = 150;
+    var allResults = [];
+    var index = 0;
+
+    function runBatch() {
+      if (index >= githubRepos.length) {
+        var total = 0, count = 0;
+        allResults.forEach(function(r) { if (r) { total += r.stars; count++; } });
+        renderGitHubStars(total, count, 'done');
+        try {
+          localStorage.setItem(GITHUB_CACHE_KEY, JSON.stringify({
+            time: Date.now(), totalStars: total, repoCount: count
+          }));
+        } catch(e) {}
+        console.log('[GitHub] done: ' + count + '/' + githubRepos.length + ', total=' + total);
+        return;
+      }
+      var batch = githubRepos.slice(index, index + BATCH_SIZE);
+      index += BATCH_SIZE;
+      Promise.all(batch.map(fetchGitHubRepo)).then(function(results) {
+        allResults = allResults.concat(results);
+        // 显示中间结果，标记为统计中
+        var partialTotal = 0, partialCount = 0;
+        allResults.forEach(function(r) { if (r) { partialTotal += r.stars; partialCount++; } });
+        renderGitHubStars(partialTotal, partialCount, 'loading');
+        setTimeout(runBatch, DELAY);
+      });
+    }
+    runBatch();
+  }
+
+  // 启动
+  fetchAllGitHubStars();
 
   // 尝试读取缓存先显示
   var cached = null;
