@@ -211,8 +211,6 @@
       + '<span style="color:#1a1a1a;font-size:1.5em;font-weight:600;">' + fmt(totalAllTime, true) + '</span>' + badge + '</div>'
       + '<div><span style="color:#64748b;font-size:0.85em;">' + i18n.monthly + '</span><br>'
       + '<span style="color:#1a1a1a;font-size:1.5em;font-weight:600;">' + fmt(totalMonthly, true) + '</span></div>'
-      + '<div><span style="color:#64748b;font-size:0.85em;">' + i18n.count + '</span><br>'
-      + '<span style="color:#1a1a1a;font-size:1.5em;font-weight:600;">' + PROJECT_COUNT + '</span></div>'
       + '</div>';
   }
 
