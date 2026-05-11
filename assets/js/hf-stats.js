@@ -12,7 +12,7 @@
 
   var i18n = {
     zh: {
-      title: '📊 HuggingFace 下载量统计',
+      title: '📊 HuggingFace + ModelScope 下载量统计',
       total: '总下载量',
       monthly: '上月下载量',
       count: '统计项目数',
@@ -23,7 +23,7 @@
       detailMonthly: '月下载'
     },
     en: {
-      title: '📊 HuggingFace Download Stats',
+      title: '📊 HuggingFace + ModelScope Download Stats',
       total: 'Total Downloads',
       monthly: 'Monthly Downloads',
       count: 'Projects',
